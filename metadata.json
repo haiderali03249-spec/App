@@ -1,0 +1,10 @@
+{
+  "name": "Haider Offline Messaging System",
+  "description": "Secure, completely offline device-to-device messaging application with private and group chats, E2EE encryption, and Liquid Glass design.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

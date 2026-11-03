@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "Haider Offline Messaging System",
+  "short_name": "Haider",
+  "description": "Connect Nearby. Message Freely. Completely offline peer-to-peer messaging system.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#060B18",
+  "theme_color": "#060B18",
+  "icons": [
+    {
+      "src": "/src/assets/images/haider_logo_icon_1793634076635.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/src/assets/images/haider_logo_icon_1793634076635.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
