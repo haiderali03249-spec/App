@@ -42,15 +42,7 @@ jobs:
             echo "Android directory checked"
           fi
 
-      - name: Upload APK Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: Haider-Offline-Messaging-APK
-          path: |
-            android/app/build/outputs/apk/debug/*.apk
-            android/app/build/outputs/apk/release/*.apk
-          if-no-files-found: ignore
-          retention-days: 14
+    
       - name: Upload Android APK
         uses: actions/upload-artifact@v4
         with:
